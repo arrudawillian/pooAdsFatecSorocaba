@@ -25,7 +25,7 @@ public class GuiAlocarFiscal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lvlSigla = new javax.swing.JLabel();
+        lblSigla = new javax.swing.JLabel();
         txtSigla = new javax.swing.JTextField();
         btnPesquisar = new javax.swing.JButton();
         lblNomeFiscal = new javax.swing.JLabel();
@@ -48,7 +48,7 @@ public class GuiAlocarFiscal extends javax.swing.JFrame {
             }
         });
 
-        lvlSigla.setText("Sigla Concurso");
+        lblSigla.setText("Sigla Concurso");
 
         btnPesquisar.setText("Pesquisar");
         btnPesquisar.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +109,7 @@ public class GuiAlocarFiscal extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lvlSigla)
+                    .addComponent(lblSigla)
                     .addComponent(lblNomeFiscal))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -147,7 +147,7 @@ public class GuiAlocarFiscal extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblDescricao)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(lvlSigla)
+                        .addComponent(lblSigla)
                         .addComponent(txtSigla, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnPesquisar)))
                 .addGap(37, 37, 37)
@@ -344,7 +344,7 @@ public class GuiAlocarFiscal extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblDescricao;
     private javax.swing.JLabel lblNomeFiscal;
-    private javax.swing.JLabel lvlSigla;
+    private javax.swing.JLabel lblSigla;
     private javax.swing.JTable tblFiscal;
     private javax.swing.JTextField txtSigla;
     // End of variables declaration//GEN-END:variables
