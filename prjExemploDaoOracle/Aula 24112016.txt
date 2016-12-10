@@ -1,0 +1,9 @@
+* Criar a tabela Tbprojeto
+
+* Criar a GuiProjeto
+
+* Criar a classe DaoProjeto
+	-Método inserir
+	-Método consultar
+
+* Implementar os botões de inserir e consultar na GuiProjeto.
